@@ -1,0 +1,19 @@
+/* ヒーロー画像は以下の URL を書き換えるだけで差し替えできます。 */
+.hero {
+  background-color: #e8f4f5;
+  background-image: url("../images/clinic-exterior.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.hero-art {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    background-image: url("../images/clinic-exterior.png");
+  }
+}
